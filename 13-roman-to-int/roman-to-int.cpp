@@ -145,5 +145,10 @@ string pop_one(string s)
         result = result + s[i];
     }
 
-    return result;
+    if (!s.empty())
+    {
+        return result;
+    }
+
+    return "";
 }
